@@ -6,10 +6,10 @@ dist/
 *.tsbuildinfo
 
 # Environment variables
-.env
 
 # Logs
 *.log
 
 # Mac system files
 .DS_Store
+config.bat
