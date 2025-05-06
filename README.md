@@ -13,7 +13,32 @@ This SDK is a wrapper around the [Pathao Courier API](https://pathao.com), allow
 ## Installation
 
 
+# ⚙️ Environment Setup
+ Create a .env file with your credentials:
 
+ ```Bash 
+ PATHAO_BASE_URL=https://courier-api-sandbox.pathao.com
+PATHAO_CLIENT_ID=your_client_id
+PATHAO_CLIENT_SECRET=your_client_secret
+PATHAO_USERNAME=your_username
+PATHAO_PASSWORD=your_password
+PATHAO_GRANT_TYPE=password
+NODE_ENV=development
+
+ ```
+
+
+## 👨‍💻 Development Notes
+- TypeScript-first
+
+- Fully typed API payloads
+ 
+- Works with both require() and import
+ 
+- Environment-based sandbox/production switch
+<br />
+<br />
+<br />
 
 ```
 pathao-sdk/
